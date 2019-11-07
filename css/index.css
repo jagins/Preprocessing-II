@@ -249,3 +249,12 @@ header nav {
   font-size: 2rem;
   padding: 3%;
 }
+.home .intro {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .intro h2 {
+  margin-top: 2%;
+}
+.home .intro p {
+  margin-bottom: 2%;
+}
