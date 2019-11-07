@@ -159,6 +159,12 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #212529;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -169,11 +175,12 @@ img {
   margin: 0 auto;
 }
 header {
-  border-bottom: 1px dashed #C0C0C0;
+  border-bottom: 2px dashed #C0C0C0;
 }
 header nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: baseline;
 }
 .footer {
   width: 100%;
@@ -231,4 +238,14 @@ header nav {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  border: 2px solid #17A2B8;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  border-radius: 25px;
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3%;
 }
