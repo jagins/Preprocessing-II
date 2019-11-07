@@ -231,6 +231,11 @@ header nav {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 100%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
@@ -259,6 +264,11 @@ header nav {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 100%;
+  }
+}
 .home .content-destination img {
   border-radius: 10px;
 }
@@ -276,6 +286,11 @@ header nav {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 100%;
+  }
 }
 .home .content-pick .destination .btn {
   border: 2px solid #17A2B8;
