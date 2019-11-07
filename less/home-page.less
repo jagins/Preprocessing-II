@@ -6,7 +6,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+   @media @mobile
+   {
+     flex-direction: column;
+     
+   }
     
     .text-content {
       width: 48%;
@@ -26,6 +30,11 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+
+    @media @mobile
+    {
+      flex-direction: column-reverse;
+    }
 
     .text-content {
       padding-left: 1%;
@@ -53,15 +62,20 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile
+    {
+      flex-direction: column;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
-    }
-  }
 
-  .btn
-  {
-    .button(@eastern-blue, 80%, @white);
+      .btn
+      {
+        .button(@eastern-blue, 80%, @white);
+      }  
+    }
   }
 
   .intro

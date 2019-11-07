@@ -146,6 +146,11 @@ h5 {
 h1 {
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  h1 {
+    margin-bottom: 2%;
+  }
+}
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
@@ -159,11 +164,21 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+@media (max-width: 500px) {
+  p {
+    font-size: 2rem;
+  }
+}
 a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   color: #212529;
+}
+@media (max-width: 500px) {
+  a {
+    margin: 5%;
+  }
 }
 img {
   max-width: 100%;
@@ -182,6 +197,14 @@ header nav {
   justify-content: space-around;
   align-items: baseline;
 }
+@media (max-width: 500px) {
+  header nav {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -199,6 +222,11 @@ header nav {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -213,6 +241,11 @@ header nav {
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -235,11 +268,16 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
-.home .btn {
+.home .content-pick .destination .btn {
   border: 2px solid #17A2B8;
   background-color: #17A2B8;
   color: #FFFFFF;
