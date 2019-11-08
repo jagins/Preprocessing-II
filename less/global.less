@@ -6,7 +6,7 @@ html {
   font-size: 62.5%;
 }
 
-html, body {
+html, body{
   font-family: 'Roboto', sans-serif;
 }
 
@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 4rem;
+
+  @media @mobile
+  {
+    margin-bottom: 2%;
+  }
 }
 
 h2 {
@@ -32,6 +37,24 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+
+  @media @mobile
+  {
+    font-size: 2rem;
+  }
+}
+
+a
+{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: @shark;
+
+  @media @mobile
+  {
+    margin: 5%;
+  }
 }
 
 img {
